@@ -2,7 +2,7 @@ import random
 import time
 
 OPERATORS = ["+", "-", "*"]
-MIN_OPERAND = 3
+MIN_OPERAND = 0
 MAX_OPERAND = 12
 TOTAL_PROBLEMS = 10
 
@@ -18,7 +18,7 @@ def generate_problem():
     return expr, answer
 
 
-start = input("Do you want to Play our Maths GAME : (Y)/(N)").upper()
+start = input("\n \n Do you want to Play our Maths GAME : (Y)/(N)").upper()
 
 while start == "Y":
     input("Press enter to start!")

@@ -9,7 +9,7 @@ if answer == "left":
         "You come to a river, you can walk around it or swim accross? Type walk to walk around and swim to swim accross: ")
 
     if answer == "swim":
-        print("You swam acrross and were eaten by an alligator.")
+        print("You swam acrross and were eaten by an Crocidile.")
     elif answer == "walk":
         print("You walked for many miles, ran out of water and you lost the game.")
     else:

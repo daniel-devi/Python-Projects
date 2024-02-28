@@ -18,7 +18,7 @@ def generate_problem():
     return expr, answer
 
 
-start = input("\n \n Do you want to Play our Maths GAME : (Y)/(N)").upper()
+start = input("\n \n ]Do you want to Play our Maths GAME : (Y)/(N)").upper()
 
 while start == "Y":
     input("Press enter to start!")
